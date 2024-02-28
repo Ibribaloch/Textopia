@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Font Selection</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+</head>
+<body>
+<header>
+    <img src="thumbnail.png" alt="logo">
+    <button type="button" id="download-btn" data-dl>
+  <span class="dl-icon"></span><span>&#x44;&#x6F;&#x77;&#x6E;&#x6C;&#x6F;&#x61;&#x64;</span>
+</button>
+</header>
+<div class="main">
+<div class="menu">
+    <div class="font">
+    <label for="font-select"><strong>//</strong>Font</label>
+    <select id="font-select">
+        <option value="Arial">Arial</option>
+        <option value="Verdana">Verdana</option>
+        <option value="Georgia">Georgia</option>
+    </select>
+    </div>
+    <div class="color">
+    <label for="color-select"><strong>//</strong>Color:</label>
+    <input type="color" id="color-select">
+    </div>
+    <div class="size">
+    <label for="size-select"><strong>//</strong>Size:</label>
+    <input type="number" id="size-select" min="10" max="50"  value="20">
+    </div>
+</div>
+<div class="text-box">
+    <textarea id="user-text" placeholder="Type your text here..."></textarea>
+</div>
+</div>
+<footer>
+    <div class="main-footer">
+        <div class="logo">
+            <img src="thumbnail.png" alt="logo">
+            <p> Crafting Your Universe of Words;</p>
+            <div class="icon">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f" style="color: #ffffff;"></i></a>
+                <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter" style="color: #ffffff;"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram" style="color: #ffffff;"></i></a>
+            </div>
+        </div>
+        <div class="le">
+        <div class="legal">
+            <h4><strong>//</strong>Legal</h4>
+            <p>Privacy Policy</p>
+            <p>Terms of Use</p>
+            <p>Disclaimer</p>
+            <p>Cookie policy</p>
+        </div>
+        <div class="legal">
+            <h4><strong>//</strong>Community</h4>
+            <p>Issues</p>
+            <p>Discussions</p>
+            <p>Corporate sponsors</p>
+            <p>Open Collective</p>
+        </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>&copy;2024 Textopia. All Rights Reserved - IBRI_BALOCH</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
